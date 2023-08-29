@@ -13,6 +13,7 @@ override_dh_auto_test:
 	  cp -p tests/atlocal tests/atlocal.orig; \
 	  sed -i 's/^\(C\|LD\)FLAGS=.*/\1FLAGS=""/' tests/atlocal; \
 	fi
+	$(if $(filter $(DEB_HOST_ARCH),mips64el),-)\
 	if dh_auto_test; then \
 	  : ; \
 	else \

@@ -15,6 +15,7 @@ Rules-Requires-Root: no
 
 Package: debugedit
 Architecture: any
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: tools for handling build-ids and paths rewriting in DWARF data
  The debugedit project provides programs and scripts for creating
