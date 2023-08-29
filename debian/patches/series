@@ -1,2 +1,3 @@
 git-updates.diff
 gcc-driver.diff
+add-loong64-support.patch
