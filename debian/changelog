@@ -1,3 +1,9 @@
+debugedit (1:5.0-5deepin1) unstable; urgency=medium
+
+  * Add loong64 support
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Wed, 03 May 2023 13:42:53 +0800
+
 debugedit (1:5.0-5) unstable; urgency=medium
 
   * Update from the trunk 20220421.
